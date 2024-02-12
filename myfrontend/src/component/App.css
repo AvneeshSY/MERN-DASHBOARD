@@ -1,0 +1,200 @@
+.nav-ul li{
+display: inline-block;
+padding: 10px;
+}
+.nav-ul li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.register {
+  margin-left: 35%;
+  margin-top: 5%;
+ 
+}
+.product{
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.register button{
+  /* margin-left: 2.5%; */
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  cursor: pointer ;
+  transition: 1s;
+  font-weight: 500;
+  font-size: 1em;
+
+}
+.product button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  cursor: pointer ;
+  transition: 1s;
+  font-weight: 500;
+  font-size: 1em;
+ 
+}
+.product button:hover{
+  background-color: rgb(42, 150, 234);
+}
+.register button:hover{
+  background-color: rgb(42, 150, 234);
+}
+.register h1{
+  margin-left: 2.5%;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+
+}
+.register p{
+  color: red;
+  margin-left: 30px;
+}
+.login{
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.login button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  cursor: pointer ;
+  transition: 1s;
+  font-weight: 500;
+  font-size: 1em;
+}
+.login button:hover{
+  background-color: rgb(42, 150, 234);
+}
+
+/* .popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.popup-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.popup-close-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+} */
+.Nav-right{
+  text-align: right;
+}
+.logout{
+margin-right: 10px;
+  float: right;
+  
+}
+.logo{
+  width: 45px;
+  height: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+
+}
+.products-List{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.products-List ul li{
+display: inline-block;
+border: 1px solid skyblue;
+padding: 5px;
+width: 150px;
+}
+.products-List ul {
+  margin: 0;
+}
+.search-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+/* Link .update-btn {
+  text-decoration: none;
+  color: green;
+  font-size: 100px;
+
+} */
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
